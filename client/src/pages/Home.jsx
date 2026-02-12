@@ -11,7 +11,7 @@ const Home = () => {
       <Brands />
       <div className="md:w-full md:max-w-full xs:mx-2  sm:mx-auto ">
         <div className="prose prose-2xl">
-          <ShopBy title="Best Sellers" filter="bestSellers" />
+          <Brands title="Best Sellers" filter="bestSellers" />
         </div>
         <div className="prose prose-2xl">
           <ShopBy title="Top Rated" filter="topRated" />
